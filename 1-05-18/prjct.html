@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project</title>
+<style >
+    .container {
+     width: 100%;
+     height:300px;   
+	display:flex;
+	flex-wrap: wrap;
+    margin:0px auto;
+     padding:8px;
+}
+}
+ .box {
+ 	 width: 100%;
+ 	 height:150px;
+     margin:0px auto;
+ 	}
+.box1 {
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        border-radius: 0px 10px 10px #ccc;
+    }
+    .view-body {
+         box-shadow:0px 0px 10px #ccc;
+    }
+ 	img {
+ 		width:100%;
+ 		height:150px;
+ 	}
+ @media screen and (min-width:450px);
+ {
+ 	.a {
+ 		width:100%;
+ }
+    .b{
+    	width: 25%;
+    }
+    .c{
+    	width:25%;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="box">
+		<div class="a"><img src="./img1.jpg"></div>
+   </div>
+   <div>
+       <div class="box">
+ 	   <img src="./img2.jpg" class="b">
+ 	   <img src="./img3.jpg" class="b">
+ 	   <img src="./img4.jpg" class="b">
+ 	   <img src="./img5.jpg" class="b">
+ 	   </div>
+       <div class="box">
+       <img src="./img6.jpg" class="c">
+       <img src="./img7.jpg" class="c">
+       <img src="./img8.jpg" class="c">
+       <img src="./img9.jpg" class="c">
+       </div>
+  </div>
+</div>
+</body>
+</html>
